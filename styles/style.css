@@ -4,7 +4,7 @@
   font-size: 18px;
   font-family: "IBM Plex mono", "Arial", "sans-serif";
   font-weight: 400;
-  background-color: var(--main-bg-color);
+  background-color: var(--main-back-color);
   background-image: var(--main-background-image);
   background-position: center;
   background-repeat: no-repeat;

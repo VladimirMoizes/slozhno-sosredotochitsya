@@ -1,6 +1,6 @@
 .page.theme_light {
-  --main-bg-color: #fff1f7;
-  --decoration-color: #353430;  /*Цвет декоративного элемента*/
+  --main-back-color: #fff1f7; /*Фоновый цвет, если картинка не загрузится*/
+  --decoration-color: #353430; /*Цвет декоративного элемента*/
   --nav-color: #353430; /*Цвет кнопок переключения тем*/
   --outline-color: rgba(50 49 45 / 0.4); /*Цвет обводки при фокусе*/
   --main-title-color: #ffc2e6; /*Цвет главного заголовка*/
@@ -13,12 +13,12 @@
   --text-color: #353430; /*Цвет текста карточек*/
   --link-shadow-color: #ff8dcb; /*Цвет тени у ссылок*/
   --main-background-image: url(../images/cover-image-light.png); /*Фоновое изображение*/
-  --display-decoration: none;
+  --display-decoration: none; /*Декоративный элемент скрывается*/
 }
 
-@media (prefers-color-sheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
-    --main-bg-color: #fff1f7;
+    --main-back-color: #fff1f7; /*Фоновый цвет, если картинка не загрузится*/
     --decoration-color: #353430; /*Цвет декоративного элемента*/
     --nav-color: #353430; /*Цвет кнопок переключения тем*/
     --outline-color: rgba(50 49 45 / 0.4); /*Цвет обводки при фокусе*/
@@ -32,6 +32,6 @@
     --text-color: #353430; /*Цвет текста карточек*/
     --link-shadow-color: #ff8dcb; /*Цвет тени у ссылок*/
     --main-background-image: url(../images/cover-image-light.png); /*Фоновое изображение*/
-    --display-decoration: none;
+    --display-decoration: none; /*Декоративный элемент скрывается*/
   }
 }

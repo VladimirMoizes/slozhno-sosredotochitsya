@@ -1,5 +1,5 @@
 .page.theme_dark {   
-    --main-bg-color: #000028;
+    --main-back-color: #000028;
     --decoration-color: #ff0070;                      
     --nav-color: #ff0070;
     --main-title-color: #db00ff;
@@ -15,9 +15,9 @@
     --display-decoration: block;
   }
   
-  @media (prefers-color-sheme: dark) {
+  @media (prefers-color-scheme: dark) {
     :root {
-      --main-bg-color: #000028;
+      --main-back-color: #000028;
       --decoration-color: #ff0070;                      
       --nav-color: #ff0070;
       --main-title-color: #db00ff;
