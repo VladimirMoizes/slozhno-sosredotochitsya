@@ -1,0 +1,34 @@
+.page.theme_dark {   
+    --decoration-color: #ff0070;                      
+    --nav-color: #ff0070;
+    --main-title-color: #db00ff;
+    --main-shadow-color: #ff0070;
+    --main-text-color: #000028;
+    --main-text-back-color: #ff0070;
+    --card-title-color: #ff0070;
+    --text-title-color: #000028;
+    --text-back-color: #ff0070;
+    --text-color: #f1b2ce;
+    --link-shadow-color: #ff0070;
+    --main-background-image: url(../images/cover-image-dark.png);
+    --display-decoration: block;
+  }
+  
+  @media (prefers-color-sheme: dark) {
+    :root {
+      --decoration-color: #ff0070;                      
+      --nav-color: #ff0070;
+      --main-title-color: #db00ff;
+      --main-shadow-color: #ff0070;
+      --main-text-color: #000028;
+      --main-text-back-color: #ff0070;
+      --card-title-color: #ff0070;
+      --text-title-color: #000028;
+      --text-back-color: #ff0070;
+      --text-color: #f1b2ce;
+      --link-shadow-color: #ff0070;
+      --main-background-image: url(../images/cover-image-dark.png);
+      --display-decoration: block;
+    }
+  }
+  

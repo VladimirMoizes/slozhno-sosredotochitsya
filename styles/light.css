@@ -1,0 +1,36 @@
+.page.theme_light {
+    --decoration-color: #353430;                                  /*Цвет декоративного элемента*/
+    --nav-color: #353430;                                         /*Цвет кнопок переключения тем*/             
+    --outline-color: rgba(50 49 45 / 0.4);                        /*Цвет обводки при фокусе*/
+    --main-title-color: #ffc2e6;                                  /*Цвет главного заголовка*/
+    --main-shadow-color: #ff0070;                                 /*Цвет тени главного заголовка*/
+    --main-text-color: #353430;                                   /*Цвет текста под заголовком*/
+    --main-text-back-color: #ff8dcb;                              /*Цвет за текстом под заголовком*/
+    --card-title-color: #353430;                                  /*Цвет заголовков карточек*/
+    --text-title-color: #353430;                                  /*Цвет заголовков текста карточек*/
+    --text-back-color: #ff8dcb;                                   /*Цвет за заголовком карточек*/
+    --text-color: #353430;                                        /*Цвет текста карточек*/
+    --link-shadow-color: #ff8dcb;                                 /*Цвет тени у ссылок*/
+    --main-background-image: url(../images/cover-image-light.png);      /*Фоновое изображение*/
+    --display-decoration: none;
+  }
+  
+  @media (prefers-color-sheme: light) {
+    :root {
+      --decoration-color: #353430;                                  /*Цвет декоративного элемента*/
+      --nav-color: #353430;                                         /*Цвет кнопок переключения тем*/             
+      --outline-color: rgba(50 49 45 / 0.4);                        /*Цвет обводки при фокусе*/
+      --main-title-color: #ffc2e6;                                  /*Цвет главного заголовка*/
+      --main-shadow-color: #ff0070;                                 /*Цвет тени главного заголовка*/
+      --main-text-color: #353430;                                   /*Цвет текста под заголовком*/
+      --main-text-back-color: #ff8dcb;                              /*Цвет за текстом под заголовком*/
+      --card-title-color: #353430;                                  /*Цвет заголовков карточек*/
+      --text-title-color: #353430;                                  /*Цвет заголовков текста карточек*/
+      --text-back-color: #ff8dcb;                                   /*Цвет за заголовком карточек*/
+      --text-color: #353430;                                        /*Цвет текста карточек*/
+      --link-shadow-color: #ff8dcb;                                 /*Цвет тени у ссылок*/
+      --main-background-image: url(../images/cover-image-light.png);      /*Фоновое изображение*/
+      --display-decoration: none;
+    }
+  }
+  
